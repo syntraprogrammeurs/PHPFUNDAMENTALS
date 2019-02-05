@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -10,16 +11,7 @@ $boek = '"Cursus backend developer 2019"';
 $auteur = "Ikke den dikke";
 $leeftijd = 45;
 ?>
-<!doctype html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EMBEDDING PHP</title>
-</head>
-<body>
+
     <h1>
         <?php
             echo $boek;
@@ -31,6 +23,4 @@ $leeftijd = 45;
         ?>
     </h2>
     <p>Hierboven werden variabelen dynamisch binnen php ingeladen</p>
-
-</body>
-</html>
+<?php include('footer.php'); ?>

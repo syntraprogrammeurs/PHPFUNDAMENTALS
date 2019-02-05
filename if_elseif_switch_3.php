@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -46,5 +47,5 @@ switch($naam){
 }
 
 ?>
-
+<?php include('footer.php'); ?>
 

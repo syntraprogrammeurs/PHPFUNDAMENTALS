@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -31,3 +32,4 @@ do{
     echo $teller . '<br>';
 }while($teller < 10);
 ?>
+<?php include('footer.php'); ?>

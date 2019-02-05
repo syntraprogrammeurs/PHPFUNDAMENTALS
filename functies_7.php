@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -42,19 +43,9 @@ function tv_converteerNaarMinuten($seconden){
 
 }
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>functie zelfgeschreven</title>
 
-</head>
-<body>
+
     <p><?php echo tv_converteerNaarMinuten(9);  ?></p>
-</body>
-</html>
 
+<?php include('footer.php'); ?>
 

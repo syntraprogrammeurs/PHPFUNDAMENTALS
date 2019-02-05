@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -9,3 +10,8 @@ opgave: schrijf de functie tv_verdubbeling($nummer) en print die op het scherm
  * schrijf de functie machtsverheffing(getal, exponent)
 
 */
+
+
+
+?>
+<?php include('footer.php'); ?>

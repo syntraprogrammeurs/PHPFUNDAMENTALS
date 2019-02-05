@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -31,3 +32,4 @@ echo "Goedemorgen {$beschrijving['Cursist']}";
 var_dump($beschrijving);
 
 ?>
+<?php include('footer.php'); ?>

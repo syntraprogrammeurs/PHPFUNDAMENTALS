@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -51,3 +52,4 @@ $hours = intdiv($totaalaanminuten, 60);
 
 echo "De totale tijdsuur is $hours uren en $minuten minuten";
 ?>
+<?php include('footer.php'); ?>

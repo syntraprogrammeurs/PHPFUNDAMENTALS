@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 /**
  * Created by PhpStorm.
@@ -17,16 +18,7 @@ $beschrijvingen =[
 		'mySql' => 'database syntax'
 ]
 ?>
-<!doctype html>
-<html lang="nl">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>For Loop</title>
-</head>
-<body>
+
 	<h1>De deelnemers</h1>
 	<h2>for loop met min</h2>
 	<?php
@@ -61,6 +53,4 @@ $beschrijvingen =[
 	        ?>
 		</ul>
 
-
-</body>
-</html>
+<?php include('footer.php'); ?>
