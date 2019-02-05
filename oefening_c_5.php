@@ -21,6 +21,8 @@ $figuranten = [
     'Piet Luttig',
     'Ambe Tant'
 ];
+
+$aantalFiguranten = 6;
 ?>
 <!doctype html>
 <html lang="nl">
@@ -50,12 +52,23 @@ $figuranten = [
 </blockquote>
 <h3>Figuranten</h3>
 <ul class="list-group">
-	<li class="list-group-item"><?php echo $figuranten[0]; ?></li>
-	<li class="list-group-item"><?php echo $figuranten[1]; ?></li>
-	<li class="list-group-item"><?php echo $figuranten[2]; ?></li>
-	<li class="list-group-item"><?php echo $figuranten[3]; ?></li>
-	<li class="list-group-item"><?php echo $figuranten[4]; ?></li>
-	<li class="list-group-item"><?php echo $figuranten[5]; ?></li>
+
+
+		<?php
+			$teller = 0;
+			while($teller < $aantalFiguranten){?>
+                <li class="list-group-item">
+	                <?php
+		                echo $figuranten[$teller];
+	                    $teller++;
+	                ?>
+                </li>
+                <?php }?>
+
+
+
+
+
 </ul>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
